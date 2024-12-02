@@ -1,0 +1,42 @@
+Policy Gradient Results:
+Accuracy: 0.5000
+
+Classification Report for Policy Gradient:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67     12500
+           1       0.00      0.00      0.00     12500
+
+    accuracy                           0.50     25000
+   macro avg       0.25      0.50      0.33     25000
+weighted avg       0.25      0.50      0.33     25000
+
+
+DQN Results:
+Accuracy: 0.5034
+
+Classification Report for DQN:
+              precision    recall  f1-score   support
+
+           0       0.51      0.27      0.35     12500
+           1       0.50      0.74      0.60     12500
+
+    accuracy                           0.50     25000
+   macro avg       0.50      0.50      0.47     25000
+weighted avg       0.50      0.50      0.47     25000
+
+
+Actor-Critic Results:
+Accuracy: 0.5000
+
+Classification Report for Actor-Critic:
+              precision    recall  f1-score   support
+
+           0       1.00      0.00      0.00     12500
+           1       0.50      1.00      0.67     12500
+
+    accuracy                           0.50     25000
+   macro avg       0.75      0.50      0.33     25000
+weighted avg       0.75      0.50      0.33     25000
+
+(.venv) smeetnagda@Smeets-Air OAA Proj % 

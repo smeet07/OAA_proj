@@ -1,0 +1,44 @@
+DQN Results:
+Accuracy: 0.8889
+Training Time: 287.37 seconds
+              precision    recall  f1-score   support
+
+           0       1.00      0.83      0.91         6
+           3       1.00      1.00      1.00         1
+           7       0.67      1.00      0.80         2
+
+    accuracy                           0.89         9
+   macro avg       0.89      0.94      0.90         9
+weighted avg       0.93      0.89      0.89         9
+
+
+Actor-Critic Results:
+Accuracy: 0.7778
+Training Time: 265.81 seconds
+              precision    recall  f1-score   support
+
+           0       0.75      1.00      0.86         6
+           3       1.00      1.00      1.00         1
+           7       0.00      0.00      0.00         2
+
+    accuracy                           0.78         9
+   macro avg       0.58      0.67      0.62         9
+weighted avg       0.61      0.78      0.68         9
+
+
+Policy Gradient Results:
+Accuracy: 0.7778
+Training Time: 164.71 seconds
+              precision    recall  f1-score   support
+
+           0       0.75      1.00      0.86         6
+           3       1.00      1.00      1.00         1
+           7       0.00      0.00      0.00         2
+
+    accuracy                           0.78         9
+   macro avg       0.58      0.67      0.62         9
+weighted avg       0.61      0.78      0.68         9
+
+
+Original Tags: [3, 0, 7, 0, 0, 0, 7, 0, 0]
+(.venv) smeetnagda@Smeets-Air OAA Proj % 

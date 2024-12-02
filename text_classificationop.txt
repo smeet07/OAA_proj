@@ -1,0 +1,64 @@
+Policy Gradient Accuracy: 0.4387
+Training Time: 81.02 seconds
+
+Classification Report for Policy Gradient:
+              precision    recall  f1-score   support
+
+           0       0.64      0.23      0.34      5956
+           1       0.54      0.66      0.59      6058
+           2       0.40      0.51      0.45      5911
+           3       0.31      0.35      0.33      6075
+
+    accuracy                           0.44     24000
+   macro avg       0.47      0.44      0.43     24000
+weighted avg       0.47      0.44      0.43     24000
+
+DQN Accuracy: 0.2531
+Training Time: 438.58 seconds
+
+Classification Report for DQN:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      5956
+           1       0.57      0.00      0.00      6058
+           2       0.25      0.00      0.00      5911
+           3       0.25      1.00      0.40      6075
+
+    accuracy                           0.25     24000
+   macro avg       0.27      0.25      0.10     24000
+weighted avg       0.27      0.25      0.10     24000
+
+Actor-Critic Accuracy: 0.4386
+Training Time: 326.99 seconds
+
+Classification Report for Actor-Critic:
+              precision    recall  f1-score   support
+
+           0       0.61      0.27      0.38      5956
+           1       0.58      0.62      0.60      6058
+           2       0.39      0.50      0.44      5911
+           3       0.30      0.37      0.33      6075
+
+    accuracy                           0.44     24000
+   macro avg       0.47      0.44      0.44     24000
+weighted avg       0.47      0.44      0.44     24000
+
+Policy Gradient has 640644 parameters
+DQN has 640644 parameters
+Actor-Critic has 1280901 parameters
+
+Ensemble Model Accuracy: 0.4383
+
+Classification Report for Ensemble Model:
+              precision    recall  f1-score   support
+
+           0       0.62      0.25      0.36      5956
+           1       0.57      0.62      0.60      6058
+           2       0.40      0.50      0.44      5911
+           3       0.30      0.37      0.33      6075
+
+    accuracy                           0.44     24000
+   macro avg       0.47      0.44      0.43     24000
+weighted avg       0.47      0.44      0.43     24000
+
+(.venv) smeetnagda@Smeets-Air OAA Proj % 
